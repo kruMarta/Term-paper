@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="600.0" style="-fx-background-color: #FFE5E5;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GiftScreenController">
+   <children>
+      <ListView fx:id="giftList" layoutX="71.0" layoutY="75.0" prefHeight="215.0" prefWidth="187.0" />
+      <Button fx:id="rangeButton" layoutX="84.0" layoutY="332.0" mnemonicParsing="false" onAction="#findInRange" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: ffffff;" text="Range">
+         <font>
+            <Font name="Ink Free" size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="71.0" layoutY="36.0" text="List of candies in your gift:">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="candyInfo" graphicTextGap="2.0" layoutX="273.0" layoutY="66.0" prefHeight="246.0" prefWidth="282.0">
+         <font>
+            <Font name="Gabriola" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="addCandyLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="259.0" layoutY="339.0" prefHeight="20.0" prefWidth="307.0">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="summary" layoutX="39.0" layoutY="289.0" text="Total: ">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="sortButton" layoutX="83.0" layoutY="395.0" mnemonicParsing="false" onAction="#sortCandies" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: ffffff;" text="Sort">
+         <font>
+            <Font name="Ink Free" size="17.0" />
+         </font>
+      </Button>
+      <Button layoutX="83.0" layoutY="459.0" mnemonicParsing="false" onAction="#returnToMenu" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: ffffff;" text="Return">
+         <font>
+            <Font name="Ink Free" size="17.0" />
+         </font>
+      </Button>
+      <RadioButton fx:id="rWeight" layoutX="227.0" layoutY="405.0" mnemonicParsing="false" text="Weight">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="sorting" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rPrice" layoutX="326.0" layoutY="405.0" mnemonicParsing="false" text="Price" toggleGroup="$sorting">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rRating" layoutX="405.0" layoutY="405.0" mnemonicParsing="false" text="Rating" toggleGroup="$sorting">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rCalories" layoutX="497.0" layoutY="405.0" mnemonicParsing="false" text="Calories" toggleGroup="$sorting">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="269.0" layoutY="459.0" mnemonicParsing="false" onAction="#exit" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: ffffff;" text="Finish">
+         <font>
+            <Font name="Ink Free" size="17.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="emailCheckBox" layoutX="404.0" layoutY="468.0" mnemonicParsing="false" text="Send me email receipt">
+         <font>
+            <Font name="Gabriola" size="16.0" />
+         </font>
+      </CheckBox>
+      <Spinner fx:id="minSpinner" editable="true" layoutX="317.0" layoutY="341.0" prefHeight="18.0" prefWidth="72.0" />
+      <Spinner fx:id="maxSpinner" editable="true" layoutX="495.0" layoutY="340.0" prefHeight="18.0" prefWidth="72.0" />
+      <Label layoutX="236.0" layoutY="341.0" text="Sugar min:" textFill="#0000008c">
+         <font>
+            <Font name="Gabriola" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="414.0" layoutY="341.0" text="Sugar max:" textFill="#0000008c">
+         <font>
+            <Font name="Gabriola" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="actionLabel" alignment="CENTER" layoutX="343.0" layoutY="36.0" prefHeight="30.0" prefWidth="187.0" text="Sorting info:">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Label>
+      <ListView fx:id="sortedList" layoutX="342.0" layoutY="75.0" prefHeight="215.0" prefWidth="187.0" />
+      <Button layoutX="269.0" layoutY="254.0" mnemonicParsing="false" onAction="#deleteCandy" prefHeight="30.0" prefWidth="37.0" style="-fx-background-color: ffffff;">
+         <graphic>
+            <ImageView fx:id="trashIcon" fitHeight="26.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+      <Label fx:id="weightLabel" alignment="CENTER" layoutX="177.0" layoutY="288.0" prefHeight="30.0" prefWidth="81.0">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

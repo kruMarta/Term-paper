@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="530.0" prefWidth="600.0" style="-fx-background-color: #FFE5E5;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MenuScreenController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="31.0" prefHeight="31.0" prefWidth="600.0" text="Welcome to Candy shop!">
+         <font>
+            <Font name="Gabriola" size="32.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="71.0" prefHeight="18.0" prefWidth="600.0" text="Let`s get started!" textFill="#000000a1">
+         <font>
+            <Font name="Gabriola" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="candiesListButton" layoutX="242.0" layoutY="258.0" mnemonicParsing="false" onAction="#clickFillFromList" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: ffffff;" text="Fill the gift!">
+         <font>
+            <Font name="Ink Free" size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="newCandyButton" layoutX="239.0" layoutY="357.0" mnemonicParsing="false" onAction="#clickNewCandy" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: ffffff;" text="Add my candy!">
+         <font>
+            <Font name="Ink Free" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="241.0" layoutY="454.0" mnemonicParsing="false" onAction="#exit" prefHeight="42.0" prefWidth="118.0" style="-fx-background-color: ffffff;" text="Exit">
+         <font>
+            <Font name="Ink Free" size="18.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="215.0" prefHeight="18.0" prefWidth="600.0" text="Fill the gift with candies from the list">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="323.0" prefHeight="22.0" prefWidth="600.0" text="Fill the gift with your custom candies!">
+         <font>
+            <Font name="Gabriola" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="giftButton" layoutX="514.0" layoutY="31.0" mnemonicParsing="false" onAction="#giftClick" style="-fx-background-color: ffffff;">
+         <graphic>
+            <ImageView fx:id="iconImage" fitHeight="30.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" />
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

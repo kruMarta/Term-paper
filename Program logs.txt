@@ -1,0 +1,302 @@
+Dec 03, 2022 12:41:32 PM application.Main start
+INFO: Program started
+Dec 03, 2022 12:41:33 PM database.DBConnection connectDB
+INFO: Database was connected successfully!
+Dec 03, 2022 12:42:12 PM application.MenuScreenController giftClick
+INFO: Clicked on the gift button
+Dec 03, 2022 12:42:12 PM database.DatabaseManager giftIsEmpty
+INFO: Query showed successfully if there is something in table gift
+Dec 03, 2022 12:42:12 PM application.MenuScreenController giftClick
+INFO: Gift is empty
+Dec 03, 2022 12:42:23 PM application.MenuScreenController clickFillFromList
+INFO: Clicked on candies from list button
+Dec 03, 2022 12:42:23 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:42:23 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:42:33 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:42:36 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:42:36 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:42:37 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:42:39 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:42:41 PM application.CandyListScreenController addCandyToGift
+INFO: Clicked add candy to the gift button
+Dec 03, 2022 12:42:41 PM database.DatabaseManager addCandyToGiftDB
+INFO: Candy was successfully added to table gift
+Dec 03, 2022 12:42:43 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:42:43 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:42:44 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:42:48 PM application.CandyListScreenController addCandyToGift
+INFO: Clicked add candy to the gift button
+Dec 03, 2022 12:42:48 PM database.DatabaseManager addCandyToGiftDB
+INFO: Candy was successfully added to table gift
+Dec 03, 2022 12:42:50 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:42:50 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:42:53 PM application.CandyListScreenController returnToMenu
+INFO: Clicked return button
+Dec 03, 2022 12:42:54 PM application.MenuScreenController giftClick
+INFO: Clicked on the gift button
+Dec 03, 2022 12:42:54 PM database.DatabaseManager giftIsEmpty
+INFO: Query showed successfully if there is something in table gift
+Dec 03, 2022 12:42:54 PM application.MenuScreenController giftClick
+INFO: Gift isn`t empty
+Dec 03, 2022 12:42:54 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:42:54 PM database.DatabaseManager getAmountOfCandies
+INFO: Query showed successfully amount of candies in table gift
+Dec 03, 2022 12:42:54 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:42:54 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:42:54 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:42:54 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:43:01 PM application.GiftScreenController returnToMenu
+INFO: Clicked return button
+Dec 03, 2022 12:43:02 PM application.MenuScreenController clickNewCandy
+INFO: Clicked on new user candy button
+Dec 03, 2022 12:43:20 PM application.UserCandyScreenController addCandyAction
+INFO: Clicked on add user candy to table candies
+Dec 03, 2022 12:43:20 PM database.DatabaseManager addCandyToDB
+INFO: User candy was successfully added to table candies
+Dec 03, 2022 12:43:24 PM application.UserCandyScreenController returnToScreen1
+INFO: Clicked on return button
+Dec 03, 2022 12:43:25 PM application.MenuScreenController clickFillFromList
+INFO: Clicked on candies from list button
+Dec 03, 2022 12:43:25 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:43:25 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:43:26 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:43:35 PM application.CandyListScreenController addCandyToGift
+INFO: Clicked add candy to the gift button
+Dec 03, 2022 12:43:35 PM database.DatabaseManager addCandyToGiftDB
+INFO: Candy was successfully added to table gift
+Dec 03, 2022 12:43:37 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:43:37 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:43:38 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:43:39 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:43:41 PM application.CandyListScreenController addCandyToGift
+INFO: Clicked add candy to the gift button
+Dec 03, 2022 12:43:41 PM database.DatabaseManager addCandyToGiftDB
+INFO: Candy was successfully added to table gift
+Dec 03, 2022 12:43:43 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:43:43 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:43:44 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:43:45 PM application.CandyListScreenController addCandyToGift
+INFO: Clicked add candy to the gift button
+Dec 03, 2022 12:43:45 PM database.DatabaseManager addCandyToGiftDB
+INFO: Candy was successfully added to table gift
+Dec 03, 2022 12:43:47 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:43:47 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:43:58 PM database.DatabaseManager findByName
+INFO: Query showed data by name in table gift
+Dec 03, 2022 12:44:01 PM application.CandyListScreenController addCandyToGift
+INFO: Clicked add candy to the gift button
+Dec 03, 2022 12:44:01 PM database.DatabaseManager refreshAmount
+INFO: Query refreshed successfully amount in table gift
+Dec 03, 2022 12:44:03 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:44:03 PM database.DatabaseManager showCandiesNames
+INFO: Query showed successfully all names in table gift
+Dec 03, 2022 12:44:07 PM application.CandyListScreenController returnToMenu
+INFO: Clicked return button
+Dec 03, 2022 12:44:08 PM application.MenuScreenController giftClick
+INFO: Clicked on the gift button
+Dec 03, 2022 12:44:08 PM database.DatabaseManager giftIsEmpty
+INFO: Query showed successfully if there is something in table gift
+Dec 03, 2022 12:44:08 PM application.MenuScreenController giftClick
+INFO: Gift isn`t empty
+Dec 03, 2022 12:44:08 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:44:08 PM database.DatabaseManager getAmountOfCandies
+INFO: Query showed successfully amount of candies in table gift
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:08 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:18 PM application.GiftScreenController findInRange
+INFO: Clicked find sugar in range button
+Dec 03, 2022 12:44:18 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:18 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:18 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:18 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:18 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:21 PM application.GiftScreenController findInRange
+INFO: Clicked find sugar in range button
+Dec 03, 2022 12:44:21 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:21 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:21 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:21 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:21 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:23 PM application.GiftScreenController findInRange
+INFO: Clicked find sugar in range button
+Dec 03, 2022 12:44:23 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:23 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:23 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:23 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:23 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:24 PM application.GiftScreenController findInRange
+INFO: Clicked find sugar in range button
+Dec 03, 2022 12:44:24 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:24 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:24 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:24 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:24 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with sugar_content
+Dec 03, 2022 12:44:27 PM application.GiftScreenController sortCandies
+INFO: Clicked sort candies button
+Dec 03, 2022 12:44:27 PM database.DatabaseManager sortBy
+INFO: Query showed successfully sorted candies in table gift by weight
+Dec 03, 2022 12:44:27 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:27 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:27 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:27 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:27 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:29 PM application.GiftScreenController sortCandies
+INFO: Clicked sort candies button
+Dec 03, 2022 12:44:29 PM database.DatabaseManager sortBy
+INFO: Query showed successfully sorted candies in table gift by price
+Dec 03, 2022 12:44:29 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:29 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:29 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:29 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:29 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:31 PM application.GiftScreenController sortCandies
+INFO: Clicked sort candies button
+Dec 03, 2022 12:44:31 PM database.DatabaseManager sortBy
+INFO: Query showed successfully sorted candies in table gift by consumer_rating
+Dec 03, 2022 12:44:31 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with consumer_rating
+Dec 03, 2022 12:44:31 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with consumer_rating
+Dec 03, 2022 12:44:31 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with consumer_rating
+Dec 03, 2022 12:44:31 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with consumer_rating
+Dec 03, 2022 12:44:31 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with consumer_rating
+Dec 03, 2022 12:44:32 PM application.GiftScreenController sortCandies
+INFO: Clicked sort candies button
+Dec 03, 2022 12:44:32 PM database.DatabaseManager sortBy
+INFO: Query showed successfully sorted candies in table gift by calories
+Dec 03, 2022 12:44:32 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:32 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:32 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:32 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:32 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:40 PM application.GiftScreenController deleteCandy
+INFO: Clicked delete candy button
+Dec 03, 2022 12:44:40 PM database.DatabaseManager deleteRow
+INFO: Query deleted successfully candy from table gift
+Dec 03, 2022 12:44:40 PM database.DatabaseManager showCandiesInsideGift
+INFO: Query showed successfully candies in table gift
+Dec 03, 2022 12:44:40 PM database.DatabaseManager getAmountOfCandies
+INFO: Query showed successfully amount of candies in table gift
+Dec 03, 2022 12:44:40 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:40 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:40 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:40 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with weight
+Dec 03, 2022 12:44:41 PM application.GiftScreenController sortCandies
+INFO: Clicked sort candies button
+Dec 03, 2022 12:44:41 PM database.DatabaseManager sortBy
+INFO: Query showed successfully sorted candies in table gift by calories
+Dec 03, 2022 12:44:41 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:41 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:41 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:41 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with calories
+Dec 03, 2022 12:44:50 PM application.GiftScreenController exit
+INFO: Clicked exit button
+Dec 03, 2022 12:44:50 PM database.DatabaseManager getAmountOfCandies
+INFO: Query showed successfully amount of candies in table gift
+Dec 03, 2022 12:44:50 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:50 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:50 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:50 PM database.DatabaseManager findOneParameter
+INFO: Query showed successfully candy in table gift with price
+Dec 03, 2022 12:44:52 PM database.DatabaseManager clearTable
+INFO: Query cleared successfully everything from table gift
+Dec 03, 2022 12:44:57 PM emailSender.EmailSenderService sendSimpleEmail
+INFO: Email was successfully sent
